@@ -1,0 +1,86 @@
+h1 {
+    color: #154360;
+    font-size: 50px;
+    font-family: Calibri, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #154360;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Calibri, sans-serif;
+}
+
+a {
+    color: #34495e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#em {
+    width: 150px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-bordered {
+    border: 5px solid #34495e;
+}
+
+h2, h3, h4 {
+    background: #d6eaf8;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+div {
+    border: 1px solid #154360;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+.card-white {
+    background: #bdc3c7;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 25px;
+}
+
